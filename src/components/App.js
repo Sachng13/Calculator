@@ -6,7 +6,7 @@ import Nav from "./Nav";
 
 function App() {
 
-  const [state, setState] = useState("");
+  const [state, setState] = useState("0");
 
   function handle(e) {
    if (state.charAt(state.length-1)=="+"
