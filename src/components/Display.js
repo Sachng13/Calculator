@@ -1,7 +1,9 @@
-function Display() {
+function Display(props) {
     
     return (
-     <h1>HIiii i am Display</h1>
+     <div className="display">
+          {props.value}
+     </div>
     );
   }
   
