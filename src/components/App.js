@@ -6,7 +6,7 @@ import Nav from "./Nav";     //importing navigation component
 
 function App() {
 
-  const [state, setState] = useState("0");
+  const [state, setState] = useState("");
    // using state;
 
   function handle(e) {
@@ -40,7 +40,7 @@ function App() {
         break;
       case "C":
         // C will clear the display
-        setState("0");
+        setState("");
         break;
       case "+/-":
         // to change the sign
