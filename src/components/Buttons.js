@@ -1,6 +1,9 @@
 function Buttons(props) {
     
     return (
+
+
+      // Buttons used in this;
      <div className="btn-structure">
       <button className="btn operations" onClick={props.handle} value={"C"}>c</button>
       <button className="btn operations" onClick={props.handle} value={"+/-"}>	&plusmn;</button>

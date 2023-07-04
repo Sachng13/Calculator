@@ -16,6 +16,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Important CSS for the components; */
 .block{
   display: flex;
   flex-direction: column;
