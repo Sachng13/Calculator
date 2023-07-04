@@ -40,7 +40,7 @@ function App() {
         break;
       case "C":
         // C will clear the display
-        setState("");
+        setState("0");
         break;
       case "+/-":
         // to change the sign
